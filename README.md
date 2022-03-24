@@ -1,6 +1,7 @@
 # caso2-AA
 
  QUICKSORT O(n^2)
+ 
 Se caracteriza por la estrategia de particion y la seleccion de pivote
 
 El escenario del caso peor de quicksort ocurre cuando el pivote cae en una sublista de un elemento y
@@ -32,19 +33,26 @@ Con el pivote random lo que ocurre es que este se puede llegar a comportar de am
 por lo que de esta forma ocurriria un balance en el tiempo de los resultados
 
 Resultados:
+
 Para obtener los resultados se usó contadores(sumaLoop) para obtener las veces de iteraciones que ocurren en cada corrida del
 problema. Además para obtener las diferentes O se cambia la ubicacion de donde empieza el pivote. La entrada es una lista de 200
 items ya ordenados del 1 al 200.
 
 Tiempo: 0 milisegundos.
+
 Suma loop: 49
+
 Tiempo: 0 milisegundos.
+
 Suma loop: 31
+
 Tiempo: 0 milisegundos.
+
 Suma loop: 384
 ------------------------------------------------------------------------------------------------------------------------------
 
 INSERTION SORT O(n^2)
+
 Un caso en el que ocurra es que se quiera ordenar ascendentemente 
 cuando ya este ordenado descendente. se harian n-1 comparaciones por cada n.
 Ocurriendo n*(n-1) = n^2 
@@ -53,10 +61,12 @@ INSERTION SORT O(n)
 Cuando la lista ya esta ordenada ocurre que  solo se tendra que recorrer n veces
 
 Resultados
+
 Para obtener los resultados se usó contadores(sumaLoopDoble y recorridoLista) para obtener las veces de iteraciones que ocurren 
 en cada corrida del problema. La primera prueba se realizó con una lista ordenada descendientemente O(n^2), y la segunda con una ordenada O(n)
 
 NSERTION SORT
+
 Tiempo: 0 milisegundos.
 Suma doble loop: 1225
 Recorrido lista: 49
