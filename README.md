@@ -15,16 +15,20 @@ Ejemplo peor caso
 1-3-2-5-4-7-6-9-8-11-10-13
 
 1   3-2-5-4-7-6-9-8-11-10-13
+
 p         sublista
 
 1  3        2-5-4-7-6-9-8-11-10-13
+
 p  p2            sublista
 
 1           2           3         5-4-7-6-9-8-11-10-13
+
 p       sublista1       p2            sublista2
 
 
 QUICKSORT O(log n)
+
 En este caso ocurre una buena particion debido a divide y venceras en donde se separa el problema en n/2 + n/2
 El pivote puede llegar a estar en el centro, pero esto no siempre asegura un O(logn)
 
@@ -49,6 +53,8 @@ Suma loop: 31
 Tiempo: 0 milisegundos.
 
 Suma loop: 384
+
+Insertion Sort
 ------------------------------------------------------------------------------------------------------------------------------
 
 INSERTION SORT O(n^2)
@@ -68,10 +74,14 @@ en cada corrida del problema. La primera prueba se realizó con una lista ordena
 NSERTION SORT
 
 Tiempo: 0 milisegundos.
+
 Suma doble loop: 1225
+
 Recorrido lista: 49
 
 Tiempo: 0 milisegundos.
+
 Suma doble loop: 0
+
 Recorrido lista: 49
 
