@@ -37,11 +37,11 @@ problema. Además para obtener las diferentes O se cambia la ubicacion de donde 
 items ya ordenados del 1 al 200.
 
 Tiempo: 0 milisegundos.
-49
+Suma loop: 49
 Tiempo: 0 milisegundos.
-31
+Suma loop: 31
 Tiempo: 0 milisegundos.
-384
+Suma loop: 384
 ------------------------------------------------------------------------------------------------------------------------------
 
 INSERTION SORT O(n^2)
