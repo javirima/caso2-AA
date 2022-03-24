@@ -1,5 +1,8 @@
 # caso2-AA
 
+Quick Sort
+------------------------------------------------------------------------------------------------------------------
+
  QUICKSORT O(n^2)
  
 Se caracteriza por la estrategia de particion y la seleccion de pivote
